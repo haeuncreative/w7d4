@@ -1,12 +1,37 @@
 /* PHASE 2: Notifications */
 
-.header-notifs:hover {
-    display: contents;
+.badge {
+    display: inline;
+    font-size: px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+li:hover .badge {
+    background: red;
+}
+
+.header {
+    position: relative;
+    z-index: 1;
+}
+
+.header-list > li {
+    position: relative;
+}
+
+
+a {
     list-style-type: none;
+    
 }
 
 .header-notifs {
     display: none;
+    position: absolute;
+    white-space: nowrap;
     list-style-type: none;
     text-decoration: none;
+    overflow: hidden;
+
 }

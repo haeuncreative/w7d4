@@ -6,6 +6,9 @@
 
 .header-nav {
     width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-around;
 }
 
 nav {
@@ -14,10 +17,11 @@ nav {
     padding: 2%;
 }
 
-h1 < header-logo {
+h1 < .header-logo {
     display: flex;
-    justify-content: left;
+    float: left;
     padding: 2%;
+
 }
 
 ul < .header-list {

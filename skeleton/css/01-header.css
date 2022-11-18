@@ -1,10 +1,36 @@
 /* PHASE 1: Header */
-nav {
-    background-color: red;
+.header {
+    display: flex;
     justify-content: center;
 }
 
-a {
+.header-nav {
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    background-color: red;
+    padding: 2%;
+}
+
+h1 < header-logo {
+    display: flex;
+    justify-content: left;
+    padding: 2%;
+}
+
+ul < .header-list {
+    display: flex;
+    justify-content: right;
+    padding: 10px;
+}
+
+.header a {
+    display: block;
+    padding: 10px 20px;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 1px;
     border-color: white;
     color: #FFFFFF;
@@ -13,6 +39,12 @@ a {
 
 .header-list {
     list-style-type: none;
+    float: right;
+}
+
+.header-list > li {
+    float: left;
+    border: 1% dotted white;
 }
 
 a:hover {
@@ -22,6 +54,7 @@ a:hover {
 
 
 body {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
 }
 

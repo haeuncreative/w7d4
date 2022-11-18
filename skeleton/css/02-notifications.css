@@ -1,1 +1,12 @@
 /* PHASE 2: Notifications */
+
+.header-notifs:hover {
+    display: contents;
+    list-style-type: none;
+}
+
+.header-notifs {
+    display: none;
+    list-style-type: none;
+    text-decoration: none;
+}
